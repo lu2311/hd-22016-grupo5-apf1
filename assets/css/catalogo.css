@@ -577,7 +577,14 @@ h6 {
     box-shadow: 5px 5px 5px #afadad;
     background-color: #eaf6fa;
     color: #0049d1;
-    border: none;
+    border: none; 
+    height: 100%;   
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* Asegura que el contenido se distribuya de manera equitativa */
+      flex-grow: 1; /* Asegura que el área del contenido ocupe el espacio disponible */
+    }
   }
 
   .card:hover {
@@ -602,9 +609,13 @@ h6 {
     font-weight: 500;
   }
 
+  .text-center{
   button {
-    font-weight: 700;
+    font-weight: 700;   
+    cursor:initial; 
   }
+}
+
 }
 
 
