@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .full-width-row {
+    margin: 0;
+    padding: 0;
+  }
+  .full-width-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .text-section {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  .image-side {
+    padding: 0;
+  }
+  .row.no-gutters {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+  
+  /* Secciones de texto */
+  .text-section {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: #f8f9fa; /* Color clarito para distinguir del fondo blanco */
+  }
+  
+  /* Imágenes que ocupan toda su columna */
+  .full-width-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Ajuste para eliminar espacio entre columnas */
+  .row.no-gutters {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+  
+  /* Para que cada bloque ocupe toda la altura de la pantalla */
+  .full-width-row {
+    height: 100vh; /* 100% de la altura visible del navegador */
+  }
+  
+  /* Opcional: botones, títulos, párrafos */
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Botón "Subscribe Now" si lo vas a usar */
+  button {
+    padding: 10px 20px;
+    background-color: #FFC82E; /* Azul Bootstrap */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c97208;
+  }
